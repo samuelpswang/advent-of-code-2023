@@ -23,13 +23,6 @@ void parse_map(const string& filename, string& instr, unordered_map<string,vecto
     }
 }
 
-// bool is_final_loc(const vector<string>& loc) {
-//     for (const string& s: loc) {
-//         if (*(s.cend()-1) != 'Z') return false;
-//     }
-//     return true;
-// }
-
 int find_steps(string start, string& instr, unordered_map<string,vector<string>>& map) {
     int steps = 0;
     while (*(start.cend()-1) != 'Z') {
