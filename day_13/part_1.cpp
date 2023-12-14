@@ -84,6 +84,7 @@ int main() {
         }
     }
     if (temp.size()) vrm.emplace_back(temp);
+    input.close();
 
     long sum = 0;
     for (int i = 0; i < vrm.size(); ++i) {

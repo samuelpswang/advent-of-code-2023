@@ -21,6 +21,8 @@ void parse_map(const string& filename, string& instr, unordered_map<string,vecto
         map[start] = {left, right};
         if (*(start.cend()-1) == 'A') loc.push_back(start);
     }
+
+    ifs.close();
 }
 
 int find_steps(string start, string& instr, unordered_map<string,vector<string>>& map) {

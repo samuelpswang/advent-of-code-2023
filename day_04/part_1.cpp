@@ -28,6 +28,8 @@ void parse_card(const string& filename, vector<unordered_set<int>>& win, vector<
         win.push_back(w);
         you.push_back(y);
     }
+
+    ifs.close();
 }
 
 int find_winnings(vector<unordered_set<int>>& win, vector<vector<int>>& you) {

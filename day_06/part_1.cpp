@@ -37,6 +37,8 @@ void parse_record(const string& filename, vector<race>& record) {
         dist.push_back(num);
     }
 
+    ifs.close();
+
     for (size_t i = 0; i < time.size(); i++) {
         record.emplace_back(time[i], dist[i]);
     }

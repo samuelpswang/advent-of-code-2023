@@ -36,6 +36,7 @@ void parse_schematics(const string& filename, vector<vector<int>>& symbol, vecto
         symbol.push_back(sym_row_pos);
         number.push_back(num_row_pos);
     }
+    ifs.close();
 }
 
 int find_sum(vector<vector<int>>& symbol, vector<vector<vector<int>>>& num_pos) {

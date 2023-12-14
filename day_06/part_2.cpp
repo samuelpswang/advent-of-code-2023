@@ -36,6 +36,8 @@ void parse_record(const string& filename, race& record) {
         ifs >> num;
         dist += to_string(num);
     }
+
+    ifs.close();
     
     record.total = stol(time);
     record.max = stol(dist);

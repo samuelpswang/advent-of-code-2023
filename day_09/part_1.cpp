@@ -20,6 +20,8 @@ void parse_data(const string& filename, vector<vector<long>>& data) {
         }
         data.push_back(series);
     }
+
+    input.close();
 }
 
 vector<long> diff(const vector<long>& f) {
