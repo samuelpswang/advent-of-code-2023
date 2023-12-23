@@ -66,6 +66,7 @@ int main() {
         cube curr(line);
         voc.push_back(line);
     }
+    input.close();
     sort(voc.begin(), voc.end());
 
     for (int i = 0; i < voc.size(); ++i) {
@@ -113,4 +114,3 @@ int main() {
     }
     cout << total << endl;
 }
-
