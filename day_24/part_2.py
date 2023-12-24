@@ -23,3 +23,8 @@ for i, (x, y, z, vx, vy, vz) in enumerate(hailstones):
         break
 
 print(answers[0][xr] + answers[0][yr] + answers[0][zr])
+
+# answer based on @hyper-neutrino - was previously stuck thinking about brute
+# force solutions within c++ - completed a search for linear solvers and
+# realized that the equations are not linear - realized that symbolic solvers
+# are very hard to manipulate in c++
