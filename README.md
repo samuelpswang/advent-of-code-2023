@@ -9,27 +9,27 @@ This repository is my solution in `c++20` to the 2023 Advent of Code event. The 
 ### Task List
 
 - [ ] Python to C++
-  - [ ] Day 17: part 1 & part 2.
+  - [ ] Day 17: part 1 and part 2.
   - [ ] Day 19: part 2.
-  - [ ] Day 20: part 1 & part 2.
+  - [ ] Day 20: part 1 and part 2.
   - [ ] Day 24: part 2.
-  - [ ] Day 15: part 1.
+  - [ ] Day 25: part 1.
 - [ ] Include comments on top of solutions to denote problem.
-- [ ] Include `input.txt` and `test.txt` used.
+- [ ] Include `input.txt` and `input-test.txt` used.
 - [ ] Include `Makefile` to clean and build everything.
 
 ### Experience
 
-This year, 2023, was my first time participating in the Advent of Code event. I was largely motivated by two of the most influential and brilliant upperclassmen I know from Imperial College - [@jpnock]() and [@simonstaal]() - I have them to thank for this exciting adventure.
+This year, 2023, was my first time participating in the Advent of Code event. I was largely motivated by two of the most influential and brilliant upperclassmen I know from Imperial College - [@Jpnock](https://github.com/Jpnock) and [@simon-staal](https://github.com/simon-staal) - I have them to thank for this exciting adventure.
 
-During my attempts of the challenges, it was not always obvious what was wrong with my solution, so I had to use other people's programs and results to compare against to debug. In this process, I frequently visited [@jonathanpaulson]() and [@hyper-neutrino]()'s YouTube channels and repositories as references. They are great at explaining their thought process and demonstrating algorithms how algorithms work. I would recommend anyone who is stuck to give their channels a go.
+During my attempts of the challenges, it was not always obvious what was wrong with my solution, so I had to use other people's programs and results to compare against to debug. In this process, I frequently visited [@jonathanpaulson](https://github.com/jonathanpaulson) and [@hyper-neutrino](https://github.com/hyper-neutrino)'s YouTube channels and repositories as references. They are great at explaining their thought process and demonstrating algorithms how algorithms work. I would recommend anyone who is stuck to give their channels a go.
 
 Lastly, I originally anticipated the Advent of Code puzzles to be only simple coding challenges, like LeetCode problems, so I chose C++ as the language to use and practice. It turns out that the puzzles cover a wide range of topics, including not only algorithms but also linear algebra and number theory. In this case, using Python would be a better idea than using C++ as it allows for easier integration of a wide range of libraries to solve the problem, since it has a mature package manager (albeit at the cost of not being able to tweak and optimize underlying code). Needless to say, I will select Python as my preferred language for future Advent of Code events.
 
 ### Results
 
 | Day   | Part 1 | Part 2 |
-| :---: | :----: | :----: |
+| :---: | :----- | :----- |
 | 1     | >24h   | >24h   |
 | 2     | >24h   | >24h   |
 | 3     | >24h   | >24h   |
@@ -61,12 +61,13 @@ Lastly, I originally anticipated the Advent of Code puzzles to be only simple co
 ```txt
 root/
 ├─ .github/workflow/actions.yml     -> YAML file that updates the badges on README.md
-├─ day_<N>                          -> <N> = day number
+├─ day_<N>/                         -> <N> = day number
 │  ├─ input.txt                     -> User-specific input
 │  ├─ input-test.txt                -> General test input
 │  ├─ part_<M>.cpp                  -> Solution in C++; <M> = part number
 │  ├─ part_<M>can<K>.cpp            -> _Can_didate solutions in C++; <K> = candidate number
 │  └─ part_<M>sub.py                -> _Sub_stitute solutions in Python
+├─ ...
 ├─ Makefile                         -> Makefile to build binaries and clean binaries (wip)
 └─ README.md                        -> Main docs
 ```
