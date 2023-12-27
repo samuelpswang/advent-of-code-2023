@@ -16,7 +16,7 @@ This repository is my solution in `c++20` to the 2023 Advent of Code event. The 
   - [ ] Day 25: part 1.
 - [ ] Include comments on top of solutions to denote problem.
 - [ ] Include `input.txt` and `input-test.txt` used.
-- [ ] Include `Makefile` to clean and build everything.
+- [v] Include `Makefile` to clean and build everything.
 
 ### Experience
 
@@ -68,6 +68,6 @@ root/
 │  ├─ part_<M>can<K>.cpp            -> _Can_didate solutions in C++; <K> = candidate number
 │  └─ part_<M>sub.py                -> _Sub_stitute solutions in Python
 ├─ ...
-├─ Makefile                         -> Makefile to build binaries and clean binaries (wip)
+├─ Makefile                         -> Makefile to build binaries and clean binaries
 └─ README.md                        -> Main docs
 ```
