@@ -15,7 +15,7 @@ This repository is my solution in `c++20` to the 2023 Advent of Code event. The 
   - [ ] Day 24: part 2.
   - [ ] Day 25: part 1.
 - [ ] Include comments on top of solutions to denote problem.
-- [ ] Include `input.txt` and `input-test.txt` used.
+- [x] Include `input.txt` used.
 - [x] Include `Makefile` to clean and build everything.
 
 ### Experience
