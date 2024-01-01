@@ -4,7 +4,7 @@
 
 ### Intro
 
-This repository is my solution in `c++20` to the 2023 Advent of Code event. The solutions to the parts listed below in the task list section was completed in `Python 3.11.6` either because it was too cumbersome to debug in C++ or because I was not proficient enough in algorithms to implement them. I will be looking to update and implement the solutions in C++ over the coming weeks.
+This repository is my solution in `c++20` to the 2023 Advent of Code event. The solutions to the parts listed below in the task list section was completed in `Python3.11` either because it was too cumbersome to debug in C++ or because I was not proficient enough in algorithms to implement them. I will be looking to update and implement the solutions in C++ over the coming weeks.
 
 ### Task List
 
@@ -16,7 +16,7 @@ This repository is my solution in `c++20` to the 2023 Advent of Code event. The 
   - [ ] Day 25: part 1.
 - [ ] Include comments on top of solutions to denote problem.
 - [ ] Include `input.txt` and `input-test.txt` used.
-- [v] Include `Makefile` to clean and build everything.
+- [x] Include `Makefile` to clean and build everything.
 
 ### Experience
 
@@ -67,7 +67,12 @@ root/
 │  ├─ part_<M>.cpp                  -> Solution in C++; <M> = part number
 │  ├─ part_<M>can<K>.cpp            -> _Can_didate solutions in C++; <K> = candidate number
 │  └─ part_<M>sub.py                -> _Sub_stitute solutions in Python
-├─ ...
 ├─ Makefile                         -> Makefile to build binaries and clean binaries
-└─ README.md                        -> Main docs
+├─ README.md                        -> Main docs
+└─ ...
 ```
+
+### Makefile Usage
+
+1. `make build`: Build all `*.cpp` files found in all day subdirectories into binaries with `g++`.
+2. `make clean`: Remove all `main`, `part_1`, or `part_2` binaries in day subdirectories.
