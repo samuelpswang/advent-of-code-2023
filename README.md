@@ -8,12 +8,12 @@ This repository is my solution in `c++20` to the 2023 Advent of Code event. The 
 
 ### Task List
 
-- [ ] Python to C++
-  - [ ] Day 17: part 1 and part 2.
-  - [ ] Day 19: part 2.
-  - [ ] Day 20: part 1 and part 2.
-  - [ ] Day 24: part 2.
-  - [ ] Day 25: part 1.
+- [x] Python to C++
+  - [x] Day 17: part 1 and part 2.
+  - [x] Day 19: part 2.
+  - [x] Day 20: part 1 and part 2.
+  - [x] Day 24: part 2.
+  - [x] Day 25: part 1.
 - [ ] Include comments on top of solutions to denote problem.
 - [x] Include `input.txt` used.
 - [x] Include `Makefile` to clean and build everything.
@@ -63,13 +63,10 @@ root/
 ├─ .github/workflow/actions.yml     -> YAML file that updates the badges on README.md
 ├─ day_<N>/                         -> <N> = day number
 │  ├─ input.txt                     -> User-specific input
-│  ├─ input-test.txt                -> General test input
-│  ├─ part_<M>.cpp                  -> Solution in C++; <M> = part number
-│  ├─ part_<M>can<K>.cpp            -> _Can_didate solutions in C++; <K> = candidate number
-│  └─ part_<M>sub.py                -> _Sub_stitute solutions in Python
+│  └─ part_<M>.cpp                  -> Solution in C++; <M> = part number
 ├─ Makefile                         -> Makefile to build binaries and clean binaries
 ├─ README.md                        -> Main docs
-└─ ...
+└─ .gitignore
 ```
 
 ### Makefile Usage
