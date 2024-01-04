@@ -1,3 +1,8 @@
+// File Name:       day_01/part_1.cpp
+// Author:          Samuel Wang (@samuelpswang)
+// Purpose:         AoC 2023 Day 1 Part 1 (https://adventofcode.com/2023/day/1)
+// Last Updated:    04 Jan 2023
+
 #include <iostream>
 #include <fstream>
 #include <string>

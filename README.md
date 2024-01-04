@@ -4,7 +4,7 @@
 
 ### Intro
 
-This repository is my solution in `c++20` to the 2023 Advent of Code event. The solutions to the parts listed below in the task list section was completed in `Python3.11` either because it was too cumbersome to debug in C++ or because I was not proficient enough in algorithms to implement them. I will be looking to update and implement the solutions in C++ over the coming weeks.
+This repository is my solution in `c++20` to the 2023 Advent of Code event. Some of the parts, listed below in the task list section, was first completed in `Python3.11` either because it was too cumbersome to debug in C++ or because I was not proficient enough in algorithms to implement them. They are now all updated with C++ solutions.
 
 ### Task List
 
@@ -14,7 +14,7 @@ This repository is my solution in `c++20` to the 2023 Advent of Code event. The 
   - [x] Day 20: part 1 and part 2.
   - [x] Day 24: part 2.
   - [x] Day 25: part 1.
-- [ ] Include comments on top of solutions to denote problem.
+- [x] Include comments on top of solutions to denote problem.
 - [x] Include `input.txt` used.
 - [x] Include `Makefile` to clean and build everything.
 

@@ -1,3 +1,8 @@
+// File Name:       day_08/part_2.cpp
+// Author:          Samuel Wang (@samuelpswang)
+// Purpose:         AoC 2023 Day 8 Part 2 (https://adventofcode.com/2023/day/8)
+// Last Updated:    04 Jan 2023
+
 #include <iostream>
 #include <fstream>
 #include <string>

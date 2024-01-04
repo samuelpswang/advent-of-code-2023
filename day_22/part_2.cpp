@@ -1,3 +1,8 @@
+// File Name:       day_22/part_2.cpp
+// Author:          Samuel Wang (@samuelpswang)
+// Purpose:         AoC 2023 Day 22 Part 2 (https://adventofcode.com/2023/day/22)
+// Last Updated:    04 Jan 2023
+
 #include <iostream>
 #include <fstream>
 #include <cassert>
