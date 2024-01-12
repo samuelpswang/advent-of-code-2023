@@ -4,6 +4,10 @@
 # ide
 *.vscode*
 
+# input
+*test.txt
+*input.txt
+
 # binaries
 *main
 *part_1
