@@ -4,7 +4,7 @@
 
 ### Intro
 
-This repository is my solution in `c++20` to the 2023 Advent of Code event. Some of the parts, listed below in the task list section, was first completed in `Python3.11` either because it was too cumbersome to debug in C++ or because I was not proficient enough in algorithms to implement them. They are now all updated with C++ solutions.
+This repository is my solutions in `c++20` to the 2023 Advent of Code event. Some of the parts, listed below in the task list section, was first completed in Python either because it was too cumbersome to debug in C++ or because I was not proficient enough in algorithms to implement them. They are now all updated with C++ solutions.
 
 ### Results
 
